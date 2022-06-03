@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    height: 1000px;
+    padding-top: 80px;
+    padding-left: 95px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.thumbnail{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.title-info{
+    font-size: 13px;
+    
+    color: rgb(96,96,96);
+}
+
+.title-author{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    margin-bottom: 4px;
+    
+}
+
+p{
+    font-family: Roboto , Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.minutes{
+    font-family: Roboto,Arial;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+
